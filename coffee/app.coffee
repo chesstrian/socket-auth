@@ -36,7 +36,7 @@ passport.serializeUser (user, done) ->
 passport.deserializeUser (id, done) ->
   done null,
     user_id: id
-    username: 'abc@bb.co.uk'
+    username: 'abc@cf.co.uk'
 
 app = express()
 
